@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background:#d5f3f7 ;
+    font-family: Roboto thin;
+    font-size: 20px;
+    width: 100%;
+    height: 500%;
+    margin: 0% auto;
+}
+#menu_top #left 
+{
+   height: 35px;
+   width: 100%;
+   position: relative;
+   
+}
+#menu_top #left img
+{  
+height: 100%;
+width: 80%;
+}
+
+
+#menu_top #left .login {
+    display: inline;
+    position: absolute;
+    margin-top: 8px;
+}
+
+#menu_top #left .login-btn {
+    padding: 6px;
+    background-color: rgb(152, 152, 198);
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+#menu_trang_chu
+{
+    height: 100px;
+    width: 100%;
+}
+#menu_trang_chu #logo img
+{
+    height: 70px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+#menu_trang_chu #menu #logo_home img
+{
+    height: 40px;
+    float:left;
+    margin-top: 32px;
+    margin-left: 3% ;
+}
+#menu_trang_chu #menu 
+{ 
+    height: 100px;
+    line-height: 100px;
+} 
+#banner 
+{
+    height: 400px;
+    width: 100%;
+    margin: 0px auto;
+    clear: left;
+}
+#banner img
+{
+    width: 100%;
+    height: 100%;
+}
+#main
+{   
+    margin-top: 38%;
+}
+#main #hoat_dong_noi_bat
+{
+    margin-top: 2%;
+    padding-left: 2%;
+    min-height: 300px;
+}
+#main #hoat_dong_noi_bat img
+{
+    width: 90%;
+    height: 70%;
+}
+#main #hoat_dong_noi_bat ul li
+{  
+    width: 90%;
+    margin-left:2% ;
+    margin-top: 2%;
+    float: left;
+}
+#main #cac_khoa_hoc
+{
+    min-height: 300px;
+    margin-top: 2%;
+    float: left;
+}
+#main #cac_khoa_hoc img
+{   width: 90%;
+    height: 70%;
+}
+#main #cac_khoa_hoc ul li
+{
+    width: 90%;
+    margin-left:2% ;
+    margin-top: 2%;
+}
+#main #ban_chu_nhiem
+{
+    height: 50%;
+    float: left;
+    margin-top: 5%;
+}  
+
+   
+#main #ban_chu_nhiem  .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+#main #ban_chu_nhiem .mySlides {
+  display: none;
+}
+
+
+#main #ban_chu_nhiem .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+#main #ban_chu_nhiem .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+#main #ban_chu_nhiem .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+#main #ban_chu_nhiem .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+#main #ban_chu_nhiem .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+#main #ban_chu_nhiem .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#main #ban_chu_nhiem .active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/*#main #ban_chu_nhiem  .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}*/
+
+
+#thanh_vien_uu_tu
+{
+    padding-left: 2%;
+    margin-top: 15%;
+    height: 360px;
+    float: left;
+}
+#thanh_vien_uu_tu #hinh_anh_tv img
+{
+    height: 40%;
+    float: left;
+}
+#thanh_vien_uu_tu #thong_tin
+{
+    height: 40%;
+    float:right;
+}
+#thanh_vien_uu_tu #thong_tin ul li
+{
+    margin-top: 2%;
+}
+#thanh_tich_noi_bat #tieu_de_thanh_tich_noi_bat
+{
+    padding-left: 1%;
+    clear: left;
+}
+
+#thanh_tich_noi_bat #hinh_anh_tt img
+{   
+    width: 100%;
+    height: 50%;
+    padding: 2%;
+}
+#thanh_tich_noi_bat #thong_tin_1
+{   width: 30%;
+    height: 12%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 70%;
+    float:left;
+}
+#thanh_tich_noi_bat #hinh_anh_web img
+{   width: 100%;
+    height: 50%; 
+    padding: 2%;
+}
+#thanh_tich_noi_bat #thong_tin_2
+{
+    width: 30%;
+    height: 12%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 70%;
+    float:left;
+   
+}
+/*#khu_doc_sach
+{
+    background-image: url("Hinhanh/background Khu đọc sách.png");
+   
+    background-size: 970px;
+}*/
+#khu_doc_sach #tieu_de_khu_doc_sach
+{   
+    padding-left: 1%;
+    margin-top: 2%;
+    clear: left;
+}
+
+#khu_doc_sach #the_loai
+{
+    padding-left:2%;
+    
+}
+
+#khu_doc_sach #the_loai .list-group
+{
+    margin-top: 2%;
+}
+
+#khu_doc_sach #ten_sach .list-anh
+{
+    margin-top: 1%;
+}
+
+#khu_doc_sach #ten_sach img
+{
+    width: 95%;
+    height: 90%;
+} 
+
+#khu_doc_sach #pagination
+{
+    margin: 2%; 
+}
+#lien_he
+{
+    margin-top:2%;
+    width: 100%; 
+    float: left;
+
+}
+#lien_he #form_lien_he
+{   
+    padding-left: 2%;
+    float: left;
+
+}
+#lien_he #hinh_anh_form img
+{
+    margin-top:2%;
+    width: 96%;
+    height: 80%;
+    float: right;
+}
+#footer
+{
+    background-image: url(Hinhanh/background\ Khu\ đọc\ sách.png);
+    width: 100%;  
+    height: 300px;
+    margin-top:2%;
+    padding-left: 2%;
+    float: left;
+
+}
+#footer1
+{
+    margin-top:3%;
+}
+#logo-footer img
+{
+    padding-left: 2%;
+    margin-top:1%;
+    height: 85%;
+    width: 30%;
+}
+
+#theo-doi-itc img 
+{
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 5%;
+    width: 30%;
+}
+
+#truy_cap_nhanh 
+{
+    margin-top: 2%;
+}
+
+#album {
+    margin-top: 2%;
+}
+
+#album #list-album img
+{
+    padding: 2%;
+    height: 50%;
+    width: 45%;
+}
+
